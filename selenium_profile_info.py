@@ -28,7 +28,7 @@ def extract_one_profile(browser, usr_name):
 
     print('LOADING')
     print(BASE_URL + usr_name + "/")
-
+    time.sleep(3)
     browser.get(BASE_URL + usr_name + "/")
     time.sleep(2)
 

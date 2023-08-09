@@ -13,7 +13,7 @@
 1. Create Working directory
 
    ```
-   mkdir demo
+   mkdir <directory name>
    ```
 
 2. Inside the directory create a file named keywords.csv with the keywords in a new line
@@ -37,18 +37,3 @@
    python selenium_profile_info.py <username> <password> <folder> <searched profiles file>
     
    ```
-
-# Accounts
-
-login: Isabellysales63t
-password: xx0022
-
-login: AnaLiviavieira45l
-password: xx0022
-
-USERNAME = "rover.ethan"
-PASSWORD = "KerekLabda456"
-
-1. python selenium_key_word_search.py rover.ethan KerekLabda456 demo keywords.csv
-2. python selenium_suggestions_fast.py rover.ethan KerekLabda456 demo key_word_search_20230809_08_43_58.csv
-3. python selenium_profile_info.py rover.ethan KerekLabda456 demo key_word_search_20230809_08_43_58.csv

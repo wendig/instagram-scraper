@@ -33,7 +33,7 @@ def is_profile(str_link):
     # Hashtag link
     non_profile_tags = [
         "/explore/", "https://", "reels?next", "?next=", "/p/", "/followers/",
-        "/tagged/", "/similar_accounts/", "/following/", "/reels/", "/directoryprofiles/"
+        "/tagged/", "/similar_accounts/", "/following/", "/reels/", "/directoryprofiles/", "/reel/"
     ]
 
     for item in non_profile_tags:
